@@ -26,6 +26,8 @@ if ($page['title'] == 'Home') {
     include(D_TEMPLATE . '/join_page.php');
 } elseif ($page['title'] == 'Resources') {
     include(D_TEMPLATE . '/resources_page.php');
+} elseif ($page['title'] == 'About') {
+    include(D_TEMPLATE . '/about_page.php');
 } else { ?>
     <div id="banner" class="baseHeader">
         <h1 class="page_title"><?php echo $page['header']; ?></h1>
@@ -35,11 +37,8 @@ if ($page['title'] == 'Home') {
     <div class="container">
         <?php echo $page['body']; ?>
     </div>
-
 <?php }
 ?>
-
-
 
 <?php
 include(D_TEMPLATE . '/footer.php');
@@ -53,6 +52,11 @@ if ($page['title'] == 'Events') {
 if ($page['title'] == 'Resources') {
     echo '<script src="libs/js/gallery.js"></script>';
 }
+if($user['permissions'] == 'admin'||'web admin')
+{
+    if($debug == 1)
+    {
+        include('widgets/debug.php');
+    }
+}
 ?>
-
-<?php include('widgets/debug.php'); ?>

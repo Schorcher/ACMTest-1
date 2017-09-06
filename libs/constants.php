@@ -20,7 +20,7 @@ define('DB_HOST_USERNAME', 'root');
 define('DB_HOST_PASSWORD', '');
 define('DB_DATABASE', 'acm-test');
 
-define('SITE_NAME', 'ACM - Test');
+define('SITE_NAME', 'ACM');
 
 // define database tables
 define('TABLE_PAGES', DB_PREFIX . 'pages');

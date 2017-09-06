@@ -46,7 +46,11 @@
 
 <div class="container">
 
-    <div id='calendar'></div>
+    <div class="calendar-container">
+        <div id='calendar' class="calendar"></div>
+    </div>
+
+
 
     <?php echo $page['body']; ?>
 

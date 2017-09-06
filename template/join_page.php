@@ -36,7 +36,7 @@
                         <li><i class="fa-li fa fa-check-square"></i>Event Access</li>
                         <li><i class="fa-li fa fa-check-square"></i>Website Resource Access</li>
                     </ul>
-                    <a href="#" class="btn btn-default card-btn text-uppercase">Join</a>
+                    <a href="https://owllife.kennesaw.edu/organization/ACM" class="btn btn-default card-btn text-uppercase">Join</a>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
                         <li><i class="fa-li fa fa-check-square"></i>Priority On Food</li>
                         <li><i class="fa-li fa fa-check-square"></i>ACM Equipment Access</li>
                     </ul>
-                    <a href="#" class="btn btn-default card-btn text-uppercase">Join</a>
+                    <a href="https://owllife.kennesaw.edu/organization/ACM" class="btn btn-default card-btn text-uppercase">Join</a>
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@
                         <li><i class="fa-li fa fa-check-square"></i>Digital Library</li>
                         <li><i class="fa-li fa fa-check-square"></i>Much More...</li>
                     </ul>
-                    <a href="#" class="btn btn-default card-btn text-uppercase">Join</a>
+                    <a href="https://campus2.acm.org/public/qj/quickjoin/qj_control.cfm?promo=PWEBTOP&form_type=Student" class="btn btn-default card-btn text-uppercase">Join</a>
                 </div>
             </div>
         </div>

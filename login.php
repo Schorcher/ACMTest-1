@@ -31,13 +31,6 @@ include(D_TEMPLATE . '/header.php');
 
     <div class="container">
 
-        <?php
-
-        echo $_POST['inputEmail'];
-        echo $_POST['inputPassword'];
-
-        ?>
-
         <form class="form-signin" action="login.php" method="post" role="form">
             <h2 class="form-signin-heading">Please sign in</h2>
             <label for="inputEmail" class="sr-only">Email address</label>
@@ -52,7 +45,7 @@ include(D_TEMPLATE . '/header.php');
                 </label>
             </div>
 
-            <div class="g-recaptcha" data-sitekey="6LfpICwUAAAAACjmFOkQ7MY1IDlPyihaC_Mf2w5l"></div>
+            <div class="g-recaptcha" data-sitekey="6Ledxy4UAAAAAPUHbLherIinxEjLAe5_WLbQ1cTd"></div>
 
             <br/>
 
@@ -62,5 +55,5 @@ include(D_TEMPLATE . '/header.php');
     </div>
 
 <?php
-include("template/footer.php");
+include(D_TEMPLATE . '/footer.php');
 ?>

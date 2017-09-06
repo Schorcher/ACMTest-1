@@ -22,11 +22,11 @@ $json = json_decode($page['body']);
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-            <img class="first-slide"
+            <img class="first-slide img-fluid"
                  src="<?php echo $json->Jumbotron->item_1->image; ?>"
                  alt="First slide">
             <div class="container">
-                <div class="carousel-caption d-none d-md-block text-left">
+                <div class="carousel-caption d-block text-left">
                     <h1><?php echo $json->Jumbotron->item_1->title; ?></h1>
                     <p><?php echo $json->Jumbotron->item_1->content; ?></p>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo $json->Jumbotron->item_1->link; ?>" role="button">Learn more</a></p>
@@ -34,10 +34,10 @@ $json = json_decode($page['body']);
             </div>
         </div>
         <div class="carousel-item">
-            <img class="second-slide" src="<?php echo $json->Jumbotron->item_2->image; ?>"
+            <img class="second-slide img-fluid" src="<?php echo $json->Jumbotron->item_2->image; ?>"
                  alt="Second slide">
             <div class="container">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-block">
                     <h1><?php echo $json->Jumbotron->item_2->title; ?></h1>
                     <p><?php echo $json->Jumbotron->item_2->content; ?></p>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo $json->Jumbotron->item_2->link; ?>" role="button">Learn more</a></p>
@@ -45,10 +45,10 @@ $json = json_decode($page['body']);
             </div>
         </div>
         <div class="carousel-item">
-            <img class="third-slide" src="<?php echo $json->Jumbotron->item_3->image; ?>"
+            <img class="third-slide img-fluid" src="<?php echo $json->Jumbotron->item_3->image; ?>"
                  alt="Third slide">
             <div class="container">
-                <div class="carousel-caption d-none d-md-block text-right">
+                <div class="carousel-caption d-block text-right">
                     <h1><?php echo $json->Jumbotron->item_3->title; ?></h1>
                     <p><?php echo $json->Jumbotron->item_3->content; ?></p>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo $json->Jumbotron->item_3->link; ?>" role="button">Sign up today</a></p>
@@ -105,7 +105,7 @@ $json = json_decode($page['body']);
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span
+            <h2 class="featurette-heading"><?php echo $json->features->item_1->title; ?>, <span
                         class="text-muted">It'll blow your mind.</span></h2>
             <p class="lead"><?php echo $json->features->item_1->content; ?></p>
         </div>
@@ -119,7 +119,7 @@ $json = json_decode($page['body']);
 
     <div class="row featurette">
         <div class="col-md-7 push-md-5">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span>
+            <h2 class="featurette-heading"><?php echo $json->features->item_2->title; ?>
             </h2>
             <p class="lead"><?php echo $json->features->item_2->content; ?></p>
         </div>
@@ -134,7 +134,7 @@ $json = json_decode($page['body']);
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+            <h2 class="featurette-heading"><?php echo $json->features->item_3->title; ?>, <span class="text-muted">Checkmate.</span></h2>
             <p class="lead"><?php echo $json->features->item_3->content; ?></p>
         </div>
         <div class="col-md-5">

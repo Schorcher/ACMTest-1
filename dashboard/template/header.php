@@ -17,7 +17,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Admin Dashboard ACM - TEST SITE</title>
+    <title>Admin Dashboard - ACM</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -45,11 +45,11 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item <?php if($pageDetails=='index'){echo 'active';} ?>">
                 <a class="nav-link" href="/dashboard/index.php">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Settings</a>
+            <li class="nav-item <?php if($pageDetails=='file_manager'){echo 'active';} ?>">
+                <a class="nav-link" href="/dashboard/file_manager/index.php">File Manager</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Profile</a>
