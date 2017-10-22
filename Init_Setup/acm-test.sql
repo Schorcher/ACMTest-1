@@ -69,7 +69,7 @@ INSERT INTO `pages` (`id`, `user`, `parent`, `title`, `header`, `banner_image`, 
    '/images/home_page_images/AAEAAQAAAAAAAAkDAAAAJGVmMWZiZmFkLTMwMDQtNDUzMy1iMmRjLTY2ZjE0ZTI0ZjQxOQ.jpg',
    '<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"../../images/Under_construction.png\" /></p>');
 
--- --------------------------------------------------------
+-- ---------------------------------------------j-----------
 
 --
 -- Table structure for table `settings`
